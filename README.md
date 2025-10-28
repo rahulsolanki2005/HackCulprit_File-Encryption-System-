@@ -102,10 +102,10 @@ The project followed a structured four-phase development methodology:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/secureshare-pro.git
+git clone https://github.com/rahulsolanki2005/HackCulprit_File-Encryption-System-
 
 # Navigate to the project directory
-cd secureshare-pro
+cd HackCulprit_File-Encryption-System-
 
 # Create virtual environment
 python -m venv venv
