@@ -175,32 +175,7 @@ The application will open automatically in your default browser at `http://local
 
 ---
 
-## 8. Demonstration
-
-### Login & Registration Screen
-![Login Screen](<img width="1920" height="987" alt="image" src="https://github.com/user-attachments/assets/317eef97-ee7f-43a0-919d-45d9862211a8" />
-)
-*Clean, centered authentication interface with gradient design*
-
-### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
-*Real-time metrics, charts, and security status at a glance*
-
-### File Management Interface
-![File Management](screenshots/file-management.png)
-*Intuitive file upload/download with encryption controls*
-
-### Security Alerts Center
-![Security Alerts](screenshots/security-alerts.png)
-*Color-coded alerts with filtering and severity classification*
-
-### Activity Logs & Analytics
-![Activity Logs](screenshots/activity-logs.png)
-*Comprehensive audit trail with export functionality*
-
----
-
-## 9. System Architecture
+## 8. System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
