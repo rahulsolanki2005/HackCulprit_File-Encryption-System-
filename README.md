@@ -7,8 +7,8 @@
 - **Internship Role:** Virtual Intern - Cybersecurity Domain
 - **Organization:** Hack Culprit
 - **GitHub Profile:** https://github.com/rahulsolanki2005
-- **Project Duration:** [Start Date] – [End Date]
-- **Project Repository:** [GitHub Repo URL]
+- **Project Duration:** 10/10/2025 – 21/10/2025
+- **Project Repository:** https://github.com/rahulsolanki2005/HackCulprit_File-Encryption-System-
 
 ---
 
