@@ -3,10 +3,10 @@
 ## Project Title: SecureShare Pro - Encryption File Sharing System with Intrusion Detection
 
 ### Submitted by:
-- **Name:** [Your Full Name]
+- **Name:** Rahul Solanki
 - **Internship Role:** Virtual Intern - Cybersecurity Domain
 - **Organization:** Hack Culprit
-- **GitHub Profile:** @yourusername
+- **GitHub Profile:** https://github.com/rahulsolanki2005
 - **Project Duration:** [Start Date] – [End Date]
 - **Project Repository:** [GitHub Repo URL]
 
