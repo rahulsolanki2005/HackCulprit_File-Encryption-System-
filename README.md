@@ -170,7 +170,6 @@ The application will open automatically in your default browser at `http://local
 
 ### 🛡️ Additional Features
 - **User Registration:** Secure account creation with password validation
-- **Auto-clear Passwords:** Password fields automatically clear after operations
 - **Export Functionality:** Download activity logs as CSV for offline analysis
 - **Responsive Design:** Clean, professional UI optimized for all screen sizes
 
@@ -179,7 +178,8 @@ The application will open automatically in your default browser at `http://local
 ## 8. Demonstration
 
 ### Login & Registration Screen
-![Login Screen](screenshots/login.png)
+![Login Screen](<img width="1920" height="987" alt="image" src="https://github.com/user-attachments/assets/317eef97-ee7f-43a0-919d-45d9862211a8" />
+)
 *Clean, centered authentication interface with gradient design*
 
 ### Dashboard Overview
