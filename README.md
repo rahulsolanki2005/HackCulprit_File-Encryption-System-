@@ -206,43 +206,14 @@ The application will open automatically in your default browser at `http://local
 
 ---
 
-## 10. Security Implementation Details
-
-### Encryption Process Flow
-1. User uploads file with encryption password
-2. PBKDF2 generates encryption key from password (100,000 iterations)
-3. Fernet encrypts file data using derived key
-4. SHA-256 hash calculated for integrity verification
-5. Encrypted data and salt stored in session state
-6. Original file data securely discarded
-
-### Intrusion Detection Algorithm
-```python
-# Brute Force Detection
-if failed_login_attempts >= 5 in last_15_minutes:
-    trigger_critical_alert()
-    lock_account_temporarily()
-
-# Suspicious Activity Pattern
-if file_downloads >= 5 in last_10_activities:
-    trigger_high_severity_alert()
-    log_suspicious_behavior()
-```
-
----
-
-## 11. Challenges Encountered
+## 9. Challenges Encountered
 
 ### Technical Challenges
 1. **Cryptography Library Integration**
    - Challenge: Understanding PBKDF2HMAC vs PBKDF2 naming conventions
    - Solution: Thorough documentation review and proper import statements
 
-2. **Password Field Auto-Clear**
-   - Challenge: Streamlit's state management limitations
-   - Solution: Implemented dynamic key counter mechanism for form reset
-
-3. **Session State Management**
+2. **Session State Management**
    - Challenge: Maintaining encrypted data in memory without persistence
    - Solution: Leveraged Streamlit's session_state for secure temporary storage
 
@@ -257,7 +228,7 @@ if file_downloads >= 5 in last_10_activities:
 
 ---
 
-## 12. Scope for Future Enhancements
+## 10. Scope for Future Enhancements
 
 ### Short-term Enhancements
 - [ ] Multi-factor authentication (MFA) support
@@ -285,7 +256,7 @@ if file_downloads >= 5 in last_10_activities:
 
 ---
 
-## 13. Testing & Validation
+## 11. Testing & Validation
 
 ### Test Scenarios Conducted
 
@@ -295,13 +266,12 @@ if file_downloads >= 5 in last_10_activities:
 | **Brute Force Test** | 5+ failed logins trigger lock | ✅ Passed |
 | **Integrity Check** | SHA-256 hash validation | ✅ Passed |
 | **Suspicious Activity** | 5+ downloads trigger alert | ✅ Passed |
-| **Password Clear** | Auto-clear after operations | ✅ Passed |
 | **Session Management** | Secure login/logout flow | ✅ Passed |
 | **UI Responsiveness** | Cross-browser compatibility | ✅ Passed |
 
 ---
 
-## 14. Learning Outcomes
+## 12. Learning Outcomes
 
 ### Technical Skills Acquired
 - ✅ Advanced Python cryptography implementation
@@ -321,7 +291,7 @@ if file_downloads >= 5 in last_10_activities:
 
 ---
 
-## 15. Conclusion
+## 13. Conclusion
 
 The **SecureShare Pro** project successfully demonstrates the practical application of cybersecurity principles in a real-world file-sharing system. Through this internship project, I gained invaluable hands-on experience in:
 
@@ -336,7 +306,7 @@ The experience gained through this Hack Culprit internship has significantly con
 
 ---
 
-## 16. Acknowledgements
+## 14. Acknowledgements
 
 I would like to express my sincere gratitude to the **Hack Culprit** team for providing this valuable learning opportunity. Special thanks to:
 
@@ -348,72 +318,23 @@ This internship has been instrumental in bridging the gap between theoretical kn
 
 ---
 
-## 17. Project Structure
-
-```
-secureshare-pro/
-│
-├── app.py                      # Main application file
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
-│
-├── screenshots/                # UI screenshots for documentation
-│   ├── login.png
-│   ├── dashboard.png
-│   ├── file-management.png
-│   ├── security-alerts.png
-│   └── activity-logs.png
-│
-└── docs/                       # Additional documentation
-    ├── SECURITY.md             # Security policy
-    ├── CONTRIBUTING.md         # Contribution guidelines
-    └── API.md                  # API documentation (future)
-```
-
----
-
-## 18. License
+## 15. License
 
 This project is distributed under the **MIT License**.
 
-```
-MIT License
-
-Copyright (c) 2024 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
 ---
 
-## 19. Contact & Support
+## 16. Contact & Support
 
 For questions, suggestions, or collaboration opportunities:
 
-- **GitHub:** [@yourusername](https://github.com/yourusername)
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Project Issues:** [GitHub Issues Page]
-
+- **GitHub:** [@rahulsolanki2005](https://github.com/rahulsolanki2005)
+- **Email:** rahul.solanki.cs@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/rahul-solanki-cs/
+  
 ---
 
-## 20. Default Credentials (For Testing)
+## 17. Default Credentials (For Testing)
 
 ```
 Username: admin
